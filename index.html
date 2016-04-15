@@ -1,27 +1,29 @@
-<div id="pbox">
-	<div id="cbox" class="outside">
- 	 </div>
-      <div class="outside" id="outer-box">
-			<h4> Goose Island 12 </h4>
-		<div id="inner-box">
-			<div class="section" id="section1">
-				<p class="item-text">
-                  ABV: 5.5%
-              </p>
-			</div>
-			<div class="section" id="section2">
-              	<p class="item-text">
-				Chicago, IL
-              </p>
-			</div>
-			<div class="section" id="section3">
-              <p class="item-text">
-				<a href="http://store.taproombeer.com">Order Now</a>	
-              </p>
-			</div>
+<div id="cbox" class="outside">
+
+<div class="outside" id="outer-box">
+	<div id="tbox">
+    
+  </div>
+  <h4> Goose Island 12 </h4>
+	<div id="inner-box">
+		<div class="section" id="section1">
+			<p class="item-text">
+                ABV: 5.5%
+            </p>
 		</div>
-        
-      </div>
+		<div class="section" id="section2">
+            	<p class="item-text">
+			Chicago, IL
+            </p>
+		</div>
+		<div class="section" id="section3">
+            <p class="item-text">
+			<a href="http://store.taproombeer.com">Order Now</a>	
+            </p>
+		</div>
+	</div>
+</div>
+</div>
     <a class="branded-text" href="http://taproombeer.com">Powered by Taproom</a>
 	
 
@@ -30,22 +32,17 @@
       .outside{
 			    width:400px;
           height: 152px;
-          padding-top: 10px;
-			    padding-bottom: 40px;
-          padding-left: 2px;
-          padding-bottom: 30px;
+          
 			    font-family: Arial;
         	position: relative;
-        	color:black;
-          
-        	
+        	color:black;  	
 		}
       #outer-box{
         z-index:6;
         opacity:.7;
         background-color:white;
-        padding: 14px;
-        
+        top: -31px
+       
       }
       
       #cbox{
@@ -55,11 +52,13 @@
         background-size: cover;
         position:absolute;
         z-index:3;
+
       }
 		#inner-box{
 			padding: 0;
 			margin: 0;
-			position: relative;   	
+			position: relative; 
+      margin-bottom: 200px;  	
 		}
 		#inner-box{
 			display: flex;
@@ -90,10 +89,18 @@
         border:none
 			
 		}
+
 		h4{
           text-align: center;
-          font-size:23px
+          font-size:23px;
+          padding:0px;
+          vertical-align: middle;
+          padding-top: 6px;
+          position: relative;
+
+
 		}
+
       a{
        	font-weight:bold;
         text-decoration:underline;
