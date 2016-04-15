@@ -1,0 +1,114 @@
+<div id="pbox">
+	<div id="cbox" class="outside">
+ 	 </div>
+      <div class="outside" id="outer-box">
+			<h4> Goose Island 12 </h4>
+		<div id="inner-box">
+			<div class="section" id="section1">
+				<p class="item-text">
+                  ABV: 5.5%
+              </p>
+			</div>
+			<div class="section" id="section2">
+              	<p class="item-text">
+				Chicago, IL
+              </p>
+			</div>
+			<div class="section" id="section3">
+              <p class="item-text">
+				<a href="http://store.taproombeer.com">Order Now</a>	
+              </p>
+			</div>
+		</div>
+        
+      </div>
+    <a class="branded-text" href="http://taproombeer.com">Powered by Taproom</a>
+	</div>
+
+	<style type="text/css">
+		#pbox{
+          width:100%;
+          height:33%;
+			background-color: transparent;
+        }
+      .outside{
+			width:40%;
+			text-align: center;
+        	padding-top: 1%;
+			padding-bottom: 2%;
+			font-family: Arial;
+       		margin: 0 auto;
+        	position: relative;
+        	color:black;
+        	height:75%;
+		}
+      #outer-box{
+        z-index:6;
+        opacity:.7;
+        background-color:white;
+        padding: .3%;
+        
+      }
+      
+      #cbox{
+        width:40%;
+        height:19%;
+       	left:30%;
+        background: url(http://cdn1.bostonmagazine.com/wp-content/uploads/2014/09/fourstarfarm_01.jpg);
+        background-size: cover;
+        position:absolute;
+        opacity: ;
+        z-index:3;
+      }
+		#inner-box{
+			padding: 0;
+			margin: 0;
+			position: relative;   	
+		}
+		#inner-box{
+			display: flex;
+			flex-direction:row;
+			 display: -webkit-flex; /* Safari */
+		    -webkit-align-items: center; /* Safari 7.0+ */
+		    display: flex;
+		    align-items: center;
+			margin-top: -7%;
+         	height:50px;
+         	width: 100%;  
+        }
+		.section{
+			border-right: 1px solid black;
+			padding: 1%;
+			position: absolute;
+			font-size: .9em;
+         	width: 31.3%;
+          	margin-top:5%;
+         	text-align:center
+      }
+     #section1{
+       margin-top:5%}
+      #section2{
+        left:33%
+      }
+		#section3{
+		left:66%;
+        border:none
+			
+		}
+		h4{
+          text-align: center;
+          font-size:1.3em
+		}
+      a{
+       	font-weight:bold;
+        text-decoration:underline;
+      }
+      .branded-text{
+        font-size: .6em;
+     	color:black;
+     	width: 100%;
+        font-family: Arial;
+        text-align: center;
+        margin-left: 48%
+      }
+	</style>
