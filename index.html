@@ -1,55 +1,61 @@
-<div id="cbox" class="outside">
-
-<div class="outside" id="outer-box">
-	<div id="tbox">
-    
+<a href="http://store.taproombeer.com">
+  <div id="cbox" class="outside">
+  	
+    <h4> GOOSE ISLAND 312 </h4>
+  	<div id="inner-box">
+  		<div class="section" id="section1">
+  			<p class="item-text">
+                  ABV: 5.5%
+              </p>
+  		</div>
+  		<div class="section" id="section2">
+              	<p class="item-text">
+  			Chicago, IL
+              </p>
+  		</div>
+  		<div class="section" id="section3">
+              <p class="item-text">
+  			         $9.99
+              </p>
+  		</div>
+  	</div>
+    <button id="order-url" href="http://store.taproombeer.com">Order Now</button> 
   </div>
-  <h4> Goose Island 12 </h4>
-	<div id="inner-box">
-		<div class="section" id="section1">
-			<p class="item-text">
-                ABV: 5.5%
-            </p>
-		</div>
-		<div class="section" id="section2">
-            	<p class="item-text">
-			Chicago, IL
-            </p>
-		</div>
-		<div class="section" id="section3">
-            <p class="item-text">
-			<a href="http://store.taproombeer.com">Order Now</a>	
-            </p>
-		</div>
-	</div>
-</div>
-</div>
+</a>
+
     <a class="branded-text" href="http://taproombeer.com">Powered by Taproom</a>
 	
+<script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Droid+Sans::latin', 'Noto+Sans::latin', 'Raleway::latin', 'Buenard::latin' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })(); </script>
 
 	<style type="text/css">
 		
       .outside{
 			    width:400px;
-          height: 152px;
-          
-			    font-family: Arial;
+          height: 100px;
+			    font-family: 'Buenard', serif;
         	position: relative;
-        	color:black;  	
+        	color:white;  
+          font-weight: bold;	
 		}
-      #outer-box{
-        z-index:6;
-        opacity:.7;
-        background-color:white;
-        top: -31px
-       
-      }
+     
       
-      #cbox{
+     #cbox{
         width:400px;
-        height:120px; 
-        background: url(http://cdn1.bostonmagazine.com/wp-content/uploads/2014/09/fourstarfarm_01.jpg);
+        height:175px; 
+        background: url(http://www.tastings.com/images/beer-freshness.jpg);
         background-size: cover;
+        background-position: center;
         position:absolute;
         z-index:3;
 
@@ -58,7 +64,8 @@
 			padding: 0;
 			margin: 0;
 			position: relative; 
-      margin-bottom: 200px;  	
+      top: -35px
+       	
 		}
 		#inner-box{
 			display: flex;
@@ -67,48 +74,69 @@
 		    -webkit-align-items: center; /* Safari 7.0+ */
 		    display: flex;
 		    align-items: center;
-			margin-top: 7px;
+			
          	height:50px;
          	width: 400px;  
         }
 		.section{
-			border-right: 1px solid black;
+			border-right: 1px solid white;
 			padding: 1px;
 			position: absolute;
-			font-size: 17px;
+			font-size: 20px;
       width: 31.3%;
-      margin-top:-8px;
       text-align: center;
          	
       }
+
+       #section1{
+        top: -10px
+}
       #section2{
-        left:33%
+        left:33%;
+        top: -10px
+
       }
 		#section3{
-		left:66%;
-        border:none
+		    left:66%;
+        border:none;
+        top: -12px
 			
 		}
 
+    a{
+      text-decoration: none;
+      color: white
+    }
+
 		h4{
-          text-align: center;
+          text-align: left;
           font-size:23px;
           padding:0px;
           vertical-align: middle;
           padding-top: 6px;
           position: relative;
-
-
+          margin-left: 5%;
+          margin-right: 25px;
+          width: 60%;
+          top: -25px
 		}
-
-      a{
+ 
+  #order-url{
        	font-weight:bold;
-        text-decoration:underline;
+        color: white;
+        font-size: 15px;
+        border: 1px solid white;
+        background-color: transparent;
+        height: 30px;
+        margin-left: 35%;
+        top: -20px;
+        position: relative;
       }
+
       .branded-text{
         font-size: .6em;
-     	color:black;
-     	width: 100%;
+      	color:black;
+     	  width: 100%;
         font-family: Arial;
         text-align: center;
        
