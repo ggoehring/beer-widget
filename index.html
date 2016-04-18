@@ -1,4 +1,4 @@
-<a href="http://store.taproombeer.com">
+<div id="widget">
   <div id="cbox" class="outside">
   	
     <h4> GOOSE ISLAND 312 </h4>
@@ -19,11 +19,14 @@
               </p>
   		</div>
   	</div>
-    <button id="order-url" href="http://store.taproombeer.com">Order Now</button> 
+    
+      <button id="order-url" href="http://store.taproombeer.com">Order Now</button> 
+    
   </div>
 </a>
 
     <a class="branded-text" href="http://taproombeer.com">Powered by Taproom</a>
+  </widget>
 	
 <script type="text/javascript">
   WebFontConfig = {
@@ -39,7 +42,10 @@
   })(); </script>
 
 	<style type="text/css">
-		
+		#widget{
+      width: 100%;
+      text-align: center;
+    }
       .outside{
 			    width:400px;
           height: 100px;
@@ -47,6 +53,8 @@
         	position: relative;
         	color:white;  
           font-weight: bold;	
+          left: 30%
+
 		}
      
       
@@ -120,6 +128,7 @@
           width: 60%;
           top: -25px
 		}
+
  
   #order-url{
        	font-weight:bold;
@@ -128,17 +137,19 @@
         border: 1px solid white;
         background-color: transparent;
         height: 30px;
-        margin-left: 35%;
-        top: -20px;
         position: relative;
+        top: -15px;
       }
 
       .branded-text{
-        font-size: .6em;
+        font-size: .7em;
       	color:black;
      	  width: 100%;
         font-family: Arial;
         text-align: center;
+        z-index: 30;
+        position: relative;
+        top: 180px
        
       }
 	</style>
