@@ -1,0 +1,95 @@
+<div class="big-box">
+	<div class="widget-box">
+		<div class="text-box">
+			<p class="section-text" id="section1">
+				312
+			</p>
+			<p class="section-text" id="section2">
+				Pale Wheat Ale
+			</p>
+			<p class="section-text" id="section3">
+				ABV: 5.5%
+			</p>
+			<p class="section-text" id="section4">
+				Chicago, IL
+			</p>
+		</div><!---end of text box-->
+		<button class="order-now">Order Now</button>
+		<a href="http://taproombeer.com" class="poweredby-link">
+			<p class="poweredby-text">
+				Powered by Taproom
+			</p>
+		</a>
+	</div><!--end of widget box-->
+</div><!--end of containing box-->
+
+<script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Lato::latin', 'Montserrat::latin' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })(); </script>
+
+<style type="text/css">
+.big-box{
+	width:100%;
+	text-align: center;
+	background-color: #f5f3ea;
+	font-family: 'Lato', sans-serif;
+}
+
+.widget-box{
+	width: 40%;
+	text-align: center;
+	left: 30%;
+	position: relative;
+}
+
+.text-box{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content:center;
+
+}
+
+.section-text{
+	border-right: 1px solid black;
+	padding: 1.5%;
+	text-align: center;
+	position: relative;
+}
+
+#section4{
+	border: none;
+}
+
+.order-now{
+	border-radius: 0px;
+	background-color: transparent;
+	border: 2px solid #8b9617;
+	color: #8b9617;
+	font-weight: normal;
+	height: 7%;
+	width: 50%;
+	font-size: 1.3em;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.poweredby-link{
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	font-size: .8em;
+	text-decoration: underline;
+	font-weight: normal;
+}
+
+</style>
+
+
